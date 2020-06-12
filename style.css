@@ -1,0 +1,121 @@
+html, body {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto); /*auto auto auto auto || 1fr 1fr 1fr 1fr*/
+    grid-gap: 10px; /*espacamento entre as celulas*/
+    grid-template-areas:    "caixa-01 caixa-01 caixa-01 caixa-01"
+                            "caixa-20 caixa-19 caixa-18 caixa-18"
+                            "caixa-02 caixa-03 caixa-04 caixa-05"
+                            "caixa-10 caixa-11 caixa-12 caixa-13"
+                            "caixa-14 caixa-15 caixa-16 caixa-17"
+                            "caixa-06 caixa-07 caixa-08 caixa-09";
+}
+
+.caixa {
+    border: 2px solid black;
+    height: 15vh;
+}
+
+#caixa-01 { 
+    background: yellow;
+    grid-area: caixa-01;
+}
+
+#caixa-02 { 
+    background: blue;
+    grid-area: caixa-02;
+}
+
+#caixa-03 { 
+    background: aquamarine;
+    grid-area: caixa-03; 
+}
+#caixa-04 { 
+    background: black;
+    grid-area: caixa-04; 
+}
+
+#caixa-05 { 
+    background: coral;
+    grid-area: caixa-05; 
+}
+
+#caixa-06 { 
+    background: darkkhaki;
+    grid-area: caixa-06; 
+}
+
+#caixa-07 { 
+    background: blueviolet;
+    grid-area: caixa-07; 
+}
+
+#caixa-08 { 
+    background: chartreuse;
+    grid-area: caixa-08; 
+}
+
+#caixa-09 { 
+    background: chocolate;
+    grid-area: caixa-09; 
+}
+
+#caixa-10 { 
+    background: deeppink;
+    grid-area: caixa-10; 
+}
+
+#caixa-11 { 
+    background: indigo;
+    grid-area: caixa-11; 
+}
+
+#caixa-12 { 
+    background: powderblue;
+    grid-area: caixa-12; 
+}
+
+#caixa-13 { 
+    background: royalblue;
+    grid-area: caixa-13; 
+}
+
+#caixa-14 { 
+    background: tomato;
+    grid-area: caixa-14; 
+}
+
+#caixa-15 { 
+    background: red;
+    grid-area: caixa-15; 
+}
+
+#caixa-16 { 
+    background: rebeccapurple;
+    grid-area: caixa-16; 
+}
+
+#caixa-17 { 
+    background: navy;
+    grid-area: caixa-17; 
+}
+
+#caixa-18 { 
+    background: steelblue;
+    grid-area: caixa-18; 
+}
+
+#caixa-19 { 
+    background: brown;
+    grid-area: caixa-19; 
+}
+
+#caixa-20 { 
+    background: darkslategrey;
+    grid-area: caixa-20; 
+}
